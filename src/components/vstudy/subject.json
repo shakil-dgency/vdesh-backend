@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_vstudy_subjects",
+  "info": {
+    "displayName": "Subject",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cover_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "qs_ranking": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    },
+    "scholarship": {
+      "type": "boolean",
+      "required": true
+    },
+    "overview": {
+      "displayName": "Subject Overview",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.subject-overview"
+    }
+  }
+}

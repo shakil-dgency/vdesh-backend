@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_university_student_statistics",
+  "info": {
+    "displayName": "Student Statistic"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "total_undegrad_graduate": {
+      "type": "string",
+      "required": true
+    },
+    "total_foreign_student": {
+      "type": "string",
+      "required": true
+    },
+    "demographics": {
+      "displayName": "Demographics",
+      "type": "component",
+      "repeatable": true,
+      "component": "university.demographics"
+    },
+    "gender": {
+      "type": "component",
+      "repeatable": true,
+      "component": "university.demographics"
+    }
+  }
+}

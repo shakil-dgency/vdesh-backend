@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_scholarship_date_components",
+  "info": {
+    "displayName": "Date Component"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

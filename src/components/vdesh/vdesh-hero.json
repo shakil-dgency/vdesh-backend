@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_vdesh_vdesh_heroes",
+  "info": {
+    "displayName": "Vdesh Hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "buttons": {
+      "displayName": "Button Group",
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.button-group"
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

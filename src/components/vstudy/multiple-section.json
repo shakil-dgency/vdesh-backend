@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_vstudy_multiple_sections",
+  "info": {
+    "displayName": "Multiple_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

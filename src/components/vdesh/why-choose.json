@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_vdesh_why_chooses",
+  "info": {
+    "displayName": "Why Choose"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "lists": {
+      "displayName": "Lists",
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.lists"
+    }
+  }
+}

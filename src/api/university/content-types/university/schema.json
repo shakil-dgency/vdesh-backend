@@ -1,0 +1,134 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universities",
+  "info": {
+    "singularName": "university",
+    "pluralName": "universities",
+    "displayName": "University",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "foundation_year": {
+      "type": "string",
+      "required": true
+    },
+    "acceptance_rate": {
+      "type": "string",
+      "required": true
+    },
+    "graduation_rate": {
+      "type": "string",
+      "required": true
+    },
+    "about_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "about_university": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::program.program",
+      "mappedBy": "university"
+    },
+    "admission_requirement": {
+      "displayName": "Admission Requirements",
+      "type": "component",
+      "repeatable": true,
+      "component": "university.admission-requirements"
+    },
+    "multiple_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.multiple-section"
+    },
+    "outcomes": {
+      "displayName": "Outcomes",
+      "type": "component",
+      "repeatable": false,
+      "component": "university.outcomes"
+    },
+    "statistic": {
+      "displayName": "Student Statistic",
+      "type": "component",
+      "repeatable": false,
+      "component": "university.student-statistic"
+    },
+    "alumni": {
+      "displayName": "Alumni",
+      "type": "component",
+      "repeatable": false,
+      "component": "university.alumni"
+    },
+    "gallery": {
+      "displayName": "Gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "university.gallery"
+    },
+    "testimonial": {
+      "displayName": "Testimonial",
+      "type": "component",
+      "repeatable": false,
+      "component": "university.testimonial"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.faq"
+    },
+    "qs_ranking": {
+      "type": "string",
+      "required": true
+    },
+    "other_universities": {
+      "displayName": "Other Universities",
+      "type": "component",
+      "repeatable": false,
+      "component": "university.other-universities"
+    }
+  }
+}

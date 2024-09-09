@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_event_event_items",
+  "info": {
+    "displayName": "Event Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string",
+      "required": true,
+      "default": "23,sep"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 70
+    },
+    "time": {
+      "type": "string",
+      "default": "02.00 PM",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "free": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

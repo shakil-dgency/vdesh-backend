@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_vdesh_service_sections",
+  "info": {
+    "displayName": "Service Section"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "service_name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "string",
+      "required": true
+    },
+    "cta_slug": {
+      "type": "string",
+      "required": true
+    },
+    "service_icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "helpful_links": {
+      "displayName": "Helpful Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.helpful-links"
+    },
+    "service_item": {
+      "displayName": "Service Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.service-item"
+    }
+  }
+}

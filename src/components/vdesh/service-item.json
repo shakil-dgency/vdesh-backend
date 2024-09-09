@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_vdesh_service_items",
+  "info": {
+    "displayName": "Service Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

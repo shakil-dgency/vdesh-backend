@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_vstudy_application_deadlines",
+  "info": {
+    "displayName": "Application Deadline"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "application_deadline_item": {
+      "displayName": "Application Deadline Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.application-deadline-item"
+    }
+  }
+}

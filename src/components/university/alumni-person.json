@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_university_alumni_people",
+  "info": {
+    "displayName": "Alumni Person"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

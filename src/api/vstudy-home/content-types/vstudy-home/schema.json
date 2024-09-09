@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "vstudy_homes",
+  "info": {
+    "singularName": "vstudy-home",
+    "pluralName": "vstudy-homes",
+    "displayName": "Vstudy Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.hero"
+    },
+    "countries": {
+      "displayName": "Country List",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.country-list"
+    },
+    "grow_skills": {
+      "displayName": "Grow Skills",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.grow-skills"
+    },
+    "testimonials": {
+      "displayName": "Testimonial",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.testimonial"
+    },
+    "price_plan": {
+      "displayName": "Price Plan",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.price-plan"
+    },
+    "upcoming_event": {
+      "displayName": "Upcoming Event",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.upcoming-event"
+    },
+    "news_reports": {
+      "displayName": "News and Reports",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.news-and-reports"
+    }
+  }
+}

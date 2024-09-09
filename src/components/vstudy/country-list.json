@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_vstudy_country_lists",
+  "info": {
+    "displayName": "Country List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

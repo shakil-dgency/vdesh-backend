@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_vstudy_subject_overviews",
+  "info": {
+    "displayName": "Subject Overview"
+  },
+  "options": {},
+  "attributes": {
+    "main_subject": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "study_level": {
+      "type": "string"
+    },
+    "study_mode": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_vdesh_single_lists",
+  "info": {
+    "displayName": "Single List"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

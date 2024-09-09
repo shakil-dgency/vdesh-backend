@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_vdesh_simplify_processes",
+  "info": {
+    "displayName": "Simplify Process"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "process_left": {
+      "displayName": "Simplify Process Item",
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.simplify-process-item"
+    },
+    "process_middle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.simplify-process-item"
+    },
+    "process_right": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.simplify-process-item"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "singularName": "country",
+    "pluralName": "countries",
+    "displayName": "Country",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "short_name": {
+      "type": "string"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "passport_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hero_title": {
+      "type": "text",
+      "required": true
+    },
+    "capital": {
+      "type": "string",
+      "required": true
+    },
+    "language": {
+      "type": "string",
+      "required": true
+    },
+    "currency": {
+      "type": "string",
+      "required": true
+    },
+    "region": {
+      "type": "string",
+      "required": true
+    },
+    "unemployment_rate": {
+      "type": "string",
+      "required": true
+    },
+    "average_weekly_earnings": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "universities": {
+      "displayName": "University List",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.university-list"
+    },
+    "about_country": {
+      "displayName": "About Country",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.about-country"
+    },
+    "multiple_section": {
+      "displayName": "Multiple_section",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.multiple-section"
+    },
+    "faq": {
+      "displayName": "FAQ",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.faq"
+    },
+    "country_scholarship": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country-scholarship.country-scholarship",
+      "mappedBy": "country"
+    },
+    "scholarship": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.multiple-section"
+    }
+  }
+}

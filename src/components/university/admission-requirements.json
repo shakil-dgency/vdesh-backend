@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_university_admission_requirements",
+  "info": {
+    "displayName": "Admission Requirements"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "requirements": {
+      "displayName": "Requirement Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "university.requirement-item"
+    }
+  }
+}

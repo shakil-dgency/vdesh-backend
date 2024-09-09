@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_scholarship_scholarship_types",
+  "info": {
+    "displayName": "Scholarship Type"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}

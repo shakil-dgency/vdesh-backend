@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_vstudy_tution_fees_and_scholarships",
+  "info": {
+    "displayName": "Tution Fees and Scholarship"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "domestic_tution": {
+      "type": "string"
+    },
+    "domestic_other_expenses": {
+      "type": "string"
+    },
+    "international_tution": {
+      "type": "string"
+    },
+    "international_other_expenses": {
+      "type": "string"
+    },
+    "scholarship": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

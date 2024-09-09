@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_vstudy_grow_skills",
+  "info": {
+    "displayName": "Grow Skills"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "scholarship": {
+      "displayName": "Grow Skill Scholarship Components",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.grow-skill-scholarship-components"
+    }
+  }
+}

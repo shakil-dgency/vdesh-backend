@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_vstudy_testimonial_items",
+  "info": {
+    "displayName": "Testimonial Item"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "comments": {
+      "type": "text",
+      "required": true
+    },
+    "video_url": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

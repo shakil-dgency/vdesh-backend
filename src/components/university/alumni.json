@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_university_alumni",
+  "info": {
+    "displayName": "Alumni"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "alumni_person_list": {
+      "displayName": "Alumni Person",
+      "type": "component",
+      "repeatable": true,
+      "component": "university.alumni-person"
+    }
+  }
+}

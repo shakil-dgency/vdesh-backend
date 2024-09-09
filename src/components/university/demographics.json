@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_university_demographics",
+  "info": {
+    "displayName": "Demographics"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "percentage": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_vdesh_about_companies",
+  "info": {
+    "displayName": "About Company",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.simplify-process-item"
+    }
+  }
+}

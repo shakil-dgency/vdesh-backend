@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_vstudy_price_cards",
+  "info": {
+    "displayName": "Price Card"
+  },
+  "options": {},
+  "attributes": {
+    "plan_type": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "amount": {
+      "type": "string",
+      "required": true
+    },
+    "list": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

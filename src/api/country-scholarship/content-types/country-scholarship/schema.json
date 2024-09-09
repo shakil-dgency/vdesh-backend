@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "country_scholarships",
+  "info": {
+    "singularName": "country-scholarship",
+    "pluralName": "country-scholarships",
+    "displayName": "Country Scholarship",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "overview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scholarship.overview"
+    },
+    "multiple_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.multiple-section"
+    },
+    "key_date": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scholarship.key-date"
+    },
+    "application_process": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.multiple-section"
+    },
+    "supporting_documents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "scholarship.supporting-documents"
+    },
+    "multiple_section2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.multiple-section"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.faq"
+    },
+    "country": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country.country",
+      "inversedBy": "country_scholarship"
+    }
+  }
+}

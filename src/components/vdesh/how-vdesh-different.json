@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_vdesh_how_vdesh_differents",
+  "info": {
+    "displayName": "How Vdesh Different"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "without_vdesh_title": {
+      "type": "string",
+      "required": true
+    },
+    "without_vdesh_lists": {
+      "displayName": "Single List",
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.single-list"
+    },
+    "with_vdesh_title": {
+      "type": "string",
+      "required": true
+    },
+    "with_vdesh_lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.single-list"
+    }
+  }
+}

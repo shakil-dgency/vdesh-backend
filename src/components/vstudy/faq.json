@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_vstudy_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "faq_item": {
+      "displayName": "FAQ Question and Answer",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.faq-question-and-answer"
+    }
+  }
+}

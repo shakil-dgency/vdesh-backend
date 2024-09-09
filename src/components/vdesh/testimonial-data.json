@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_vdesh_testimonial_data",
+  "info": {
+    "displayName": "Testimonial Data"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "message": {
+      "type": "text",
+      "maxLength": 300,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "city_and_institutename": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

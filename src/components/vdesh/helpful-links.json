@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_vdesh_helpful_links",
+  "info": {
+    "displayName": "Helpful Links"
+  },
+  "options": {},
+  "attributes": {
+    "link_title": {
+      "type": "string",
+      "required": true
+    },
+    "link_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

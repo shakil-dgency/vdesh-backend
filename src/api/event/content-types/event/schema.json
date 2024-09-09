@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "event.hero"
+    },
+    "upcoming_events": {
+      "displayName": "Upcoming Events",
+      "type": "component",
+      "repeatable": false,
+      "component": "event.upcoming-events"
+    },
+    "event_speaker": {
+      "displayName": "Event Speaker",
+      "type": "component",
+      "repeatable": false,
+      "component": "event.event-speaker"
+    },
+    "gallery": {
+      "displayName": "Event Gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "event.event-gallery"
+    },
+    "sponsors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.event-gallery"
+    }
+  }
+}

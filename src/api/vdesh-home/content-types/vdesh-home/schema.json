@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "vdesh_homes",
+  "info": {
+    "singularName": "vdesh-home",
+    "pluralName": "vdesh-homes",
+    "displayName": "Vdesh Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "Vdesh Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.vdesh-hero"
+    },
+    "service_section": {
+      "displayName": "Service Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.service-section"
+    },
+    "why_choose_us": {
+      "displayName": "Why Choose",
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.why-choose"
+    },
+    "how_vdesh_different": {
+      "displayName": "How Vdesh Different",
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.how-vdesh-different"
+    },
+    "simplify_process": {
+      "displayName": "Simplify Process",
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.simplify-process"
+    },
+    "success_stories": {
+      "displayName": "Success Stories",
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.success-stories"
+    },
+    "about_company": {
+      "displayName": "About Company",
+      "type": "component",
+      "repeatable": false,
+      "component": "vdesh.about-company"
+    },
+    "testimonials": {
+      "displayName": "Testimonial",
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.testimonial"
+    },
+    "news_reports": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.news-and-reports"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_vstudy_faculty_members",
+  "info": {
+    "displayName": "Faculty Members",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "members": {
+      "displayName": "Members",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.members"
+    }
+  }
+}

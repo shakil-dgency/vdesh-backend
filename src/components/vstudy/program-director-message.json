@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_vstudy_program_director_messages",
+  "info": {
+    "displayName": "Program Director Message"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_vstudy_masters_programs",
+  "info": {
+    "displayName": "Masters Programs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "qs_ranking": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    },
+    "scholarship": {
+      "type": "boolean",
+      "required": true
+    },
+    "overview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.subject-overview"
+    },
+    "multiple_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.multiple-section"
+    },
+    "tution_and_scholarship": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.tution-fees-and-scholarship"
+    },
+    "application_deadline": {
+      "displayName": "Application Deadline",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.application-deadline"
+    },
+    "curriculum": {
+      "displayName": "Curriculum",
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.curriculum"
+    },
+    "multiple_section2": {
+      "displayName": "Multiple_section",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.multiple-section"
+    }
+  }
+}

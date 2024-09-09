@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_vstudy_upcoming_events",
+  "info": {
+    "displayName": "Upcoming Event"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "event_card": {
+      "displayName": "Event Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.event-card"
+    }
+  }
+}

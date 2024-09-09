@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_vdesh_simplify_process_items",
+  "info": {
+    "displayName": "Simplify Process Item"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "short_description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_vdesh_lists",
+  "info": {
+    "displayName": "Lists"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

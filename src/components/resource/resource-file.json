@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_resource_resource_files",
+  "info": {
+    "displayName": "Resource File"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "sub_title": {
+      "type": "string",
+      "required": true
+    },
+    "sub_description": {
+      "type": "string",
+      "required": true
+    },
+    "files": {
+      "displayName": "Files",
+      "type": "component",
+      "repeatable": true,
+      "component": "resource.files"
+    }
+  }
+}

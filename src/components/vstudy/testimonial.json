@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_vstudy_testimonials",
+  "info": {
+    "displayName": "Testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "testimonial_data": {
+      "displayName": "Testimonial Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.testimonial-item"
+    }
+  }
+}

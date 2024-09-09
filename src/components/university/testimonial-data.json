@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_university_testimonial_data",
+  "info": {
+    "displayName": "Testimonial Data"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

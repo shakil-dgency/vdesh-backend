@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_event_event_speakers",
+  "info": {
+    "displayName": "Event Speaker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "card": {
+      "displayName": "Speaker Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "event.speaker-card"
+    }
+  }
+}

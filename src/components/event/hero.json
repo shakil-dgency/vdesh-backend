@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_event_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hero_highlight": {
+      "displayName": "Hero Highlight",
+      "type": "component",
+      "repeatable": true,
+      "component": "event.hero-highlight"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

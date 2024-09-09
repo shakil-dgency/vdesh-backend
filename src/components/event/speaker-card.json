@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_event_speaker_cards",
+  "info": {
+    "displayName": "Speaker Card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    }
+  }
+}

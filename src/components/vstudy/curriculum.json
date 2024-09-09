@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_vstudy_curricula",
+  "info": {
+    "displayName": "Curriculum"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "curriculum_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vstudy.curriculum-item"
+    }
+  }
+}

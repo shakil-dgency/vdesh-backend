@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "resources",
+  "info": {
+    "singularName": "resource",
+    "pluralName": "resources",
+    "displayName": "Resource",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "resource.hero"
+    },
+    "resource": {
+      "displayName": "Resource File",
+      "type": "component",
+      "repeatable": false,
+      "component": "resource.resource-file"
+    },
+    "counseling_form": {
+      "displayName": "Counseling Form",
+      "type": "component",
+      "repeatable": false,
+      "component": "resource.counseling-form"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

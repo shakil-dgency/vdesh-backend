@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_vstudy_university_lists",
+  "info": {
+    "displayName": "University List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "universities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::university.university"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

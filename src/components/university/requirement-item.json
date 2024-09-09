@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_university_requirement_items",
+  "info": {
+    "displayName": "Requirement Item"
+  },
+  "options": {},
+  "attributes": {
+    "requirement": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

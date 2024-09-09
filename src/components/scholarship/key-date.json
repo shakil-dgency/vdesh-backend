@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_scholarship_key_dates",
+  "info": {
+    "displayName": "Key Date"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "displayName": "Date Component",
+      "type": "component",
+      "repeatable": true,
+      "component": "scholarship.date-component"
+    }
+  }
+}

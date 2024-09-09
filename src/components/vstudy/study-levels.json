@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_vstudy_study_levels",
+  "info": {
+    "displayName": "Study Levels"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

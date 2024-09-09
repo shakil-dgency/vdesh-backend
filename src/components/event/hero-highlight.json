@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_event_hero_highlights",
+  "info": {
+    "displayName": "Hero Highlight"
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "string",
+      "required": true
+    },
+    "about": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

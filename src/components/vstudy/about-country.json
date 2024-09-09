@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_vstudy_about_countries",
+  "info": {
+    "displayName": "About Country"
+  },
+  "options": {},
+  "attributes": {
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "about_content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

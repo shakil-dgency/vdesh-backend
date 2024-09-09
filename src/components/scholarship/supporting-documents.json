@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_scholarship_supporting_documents",
+  "info": {
+    "displayName": "Supporting Documents"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "documents": {
+      "displayName": "Documents Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "scholarship.documents-card"
+    }
+  }
+}

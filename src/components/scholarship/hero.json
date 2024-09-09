@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_scholarship_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "cover_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "scholarship_name": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    }
+  }
+}

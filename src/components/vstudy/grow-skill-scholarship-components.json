@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_vstudy_grow_skill_scholarship_components",
+  "info": {
+    "displayName": "Grow Skill Scholarship Components"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "string"
+    },
+    "cta_url": {
+      "type": "string"
+    }
+  }
+}

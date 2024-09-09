@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_vdesh_success_stories",
+  "info": {
+    "displayName": "Success Stories"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

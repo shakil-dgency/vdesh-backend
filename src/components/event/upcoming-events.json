@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_event_upcoming_events",
+  "info": {
+    "displayName": "Upcoming Events"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "event_card": {
+      "displayName": "Event Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "event.event-item"
+    }
+  }
+}

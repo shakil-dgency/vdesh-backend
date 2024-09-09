@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_vstudy_members",
+  "info": {
+    "displayName": "Members"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

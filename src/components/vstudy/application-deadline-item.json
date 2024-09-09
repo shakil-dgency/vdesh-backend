@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_vstudy_application_deadline_items",
+  "info": {
+    "displayName": "Application Deadline Item"
+  },
+  "options": {},
+  "attributes": {
+    "semester_title": {
+      "type": "string"
+    },
+    "domestic_deadline": {
+      "type": "string"
+    },
+    "international_deadline": {
+      "type": "string"
+    }
+  }
+}

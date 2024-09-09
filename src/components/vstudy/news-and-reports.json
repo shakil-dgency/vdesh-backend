@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_vstudy_news_and_reports",
+  "info": {
+    "displayName": "News and Reports",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "news_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vdesh.news-and-reports"
+    }
+  }
+}

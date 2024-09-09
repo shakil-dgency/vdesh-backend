@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_resource_degrees",
+  "info": {
+    "displayName": "Degree"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
