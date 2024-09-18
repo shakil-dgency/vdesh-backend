@@ -822,7 +822,6 @@ export interface ApiCountryCountry extends Schema.CollectionType {
       'api::country-scholarship.country-scholarship'
     >;
     scholarship: Attribute.Component<'vstudy.multiple-section'>;
-    test: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
