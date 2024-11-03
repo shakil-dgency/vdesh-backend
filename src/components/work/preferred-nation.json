@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_work_preferred_nations",
+  "info": {
+    "displayName": "Preferred Nation"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

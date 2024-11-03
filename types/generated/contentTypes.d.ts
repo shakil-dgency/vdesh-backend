@@ -1265,6 +1265,41 @@ export interface ApiVstudyHomeVstudyHome extends Schema.SingleType {
   };
 }
 
+export interface ApiWorkHomeWorkHome extends Schema.SingleType {
+  collectionName: 'work_homes';
+  info: {
+    singularName: 'work-home';
+    pluralName: 'work-homes';
+    displayName: 'Work Home';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    hero: Attribute.Component<'work.hero'>;
+    benefits: Attribute.Component<'work.benefits-of-visa'>;
+    preferred_nation: Attribute.Component<'work.preferred-nation'>;
+    testimonials: Attribute.Component<'vstudy.testimonial'>;
+    news_reports: Attribute.Component<'vstudy.news-and-reports'>;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::work-home.work-home',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::work-home.work-home',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -1294,6 +1329,7 @@ declare module '@strapi/types' {
       'api::university.university': ApiUniversityUniversity;
       'api::vdesh-home.vdesh-home': ApiVdeshHomeVdeshHome;
       'api::vstudy-home.vstudy-home': ApiVstudyHomeVstudyHome;
+      'api::work-home.work-home': ApiWorkHomeWorkHome;
     }
   }
 }

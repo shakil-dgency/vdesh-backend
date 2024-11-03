@@ -1122,6 +1122,54 @@ export interface VstudyUpcomingEvent extends Schema.Component {
   };
 }
 
+export interface WorkBenefitsOfVisa extends Schema.Component {
+  collectionName: 'components_work_benefits_of_visas';
+  info: {
+    displayName: 'Benefits of Visa';
+  };
+  attributes: {
+    title: Attribute.String;
+    description: Attribute.Text;
+    lists: Attribute.Component<'work.lists', true>;
+  };
+}
+
+export interface WorkHero extends Schema.Component {
+  collectionName: 'components_work_heroes';
+  info: {
+    displayName: 'Hero';
+  };
+  attributes: {
+    title_top_description: Attribute.String;
+    title: Attribute.String & Attribute.Required;
+    description: Attribute.Text & Attribute.Required;
+    hero_image: Attribute.Media<'images'> & Attribute.Required;
+  };
+}
+
+export interface WorkLists extends Schema.Component {
+  collectionName: 'components_work_lists';
+  info: {
+    displayName: 'Lists';
+  };
+  attributes: {
+    icon: Attribute.Media<'images'>;
+    title: Attribute.String;
+    description: Attribute.Text;
+  };
+}
+
+export interface WorkPreferredNation extends Schema.Component {
+  collectionName: 'components_work_preferred_nations';
+  info: {
+    displayName: 'Preferred Nation';
+  };
+  attributes: {
+    title: Attribute.String;
+    description: Attribute.Text;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
@@ -1204,6 +1252,10 @@ declare module '@strapi/types' {
       'vstudy.tution-fees-and-scholarship': VstudyTutionFeesAndScholarship;
       'vstudy.university-list': VstudyUniversityList;
       'vstudy.upcoming-event': VstudyUpcomingEvent;
+      'work.benefits-of-visa': WorkBenefitsOfVisa;
+      'work.hero': WorkHero;
+      'work.lists': WorkLists;
+      'work.preferred-nation': WorkPreferredNation;
     }
   }
 }

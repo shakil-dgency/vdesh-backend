@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_work_benefits_of_visas",
+  "info": {
+    "displayName": "Benefits of Visa"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "lists": {
+      "displayName": "Lists",
+      "type": "component",
+      "repeatable": true,
+      "component": "work.lists"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "work_homes",
+  "info": {
+    "singularName": "work-home",
+    "pluralName": "work-homes",
+    "displayName": "Work Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.hero"
+    },
+    "benefits": {
+      "displayName": "Benefits of Visa",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.benefits-of-visa"
+    },
+    "preferred_nation": {
+      "displayName": "Preferred Nation",
+      "type": "component",
+      "repeatable": false,
+      "component": "work.preferred-nation"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.testimonial"
+    },
+    "news_reports": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vstudy.news-and-reports"
+    }
+  }
+}

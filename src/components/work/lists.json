@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_work_lists",
+  "info": {
+    "displayName": "Lists"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
